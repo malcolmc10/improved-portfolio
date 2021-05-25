@@ -1,4 +1,6 @@
 import React from "react";
+import Covid from "../images/Covid.png"
+import Reactsvg from "../images/react.svg"
 
 export default function Intro() {
   return (
@@ -53,12 +55,32 @@ export default function Intro() {
             <p className="featured-desc">Using the disease.sh API, Leaflet, and Material UI I created an interactive tool that tracks the number of cases, recoveries, and deaths by COVID-19 internationally.</p>
           </div>
         </div>
-        
 
-      
+        <img class="right transition2" src={Covid} alt="Covid-19 Project"/>
+        
       </section>
 
 
+      {/* Below is where I will list my technical skills */}
+
+      <section className="skills">
+        <div className="skills-container">
+          <ul>
+            <li className="transition2">
+              <div className="icon-container one">
+                <img src={Reactsvg} alt="react svg" />
+              </div>
+               
+            </li>
+
+
+          </ul>
+
+          </div>
+
+
+
+      </section>
 
 
     </div>
