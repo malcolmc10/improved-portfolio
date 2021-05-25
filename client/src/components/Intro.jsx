@@ -12,8 +12,9 @@ export default function Intro() {
           <p>Learn more below</p>
         </div>
 
+        {/* scroll animation below */}
         
-        <svg xmlns="http://www.w3.org/2000/svg" width="43" height="73" viewBox="0 0 43 73">
+        <svg class="scroll" width="43" height="73" viewBox="0 0 43 73">
   <g id="Toggle-1" transform="translate(-248 -716)">
     <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(248 716)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="6">
       <rect width="43" height="73" rx="21.5" stroke="none"/>
@@ -23,10 +24,26 @@ export default function Intro() {
   </g>
 </svg>
 
-
-
-
       </div>
+
+      {/* big animation below */}
+
+      <svg  class="hero-design" width="600" height="600" viewBox="0 0 600 600">
+  <g id="hero-image" transform="translate(-856 -240)">
+    <rect class="square-anim" id="Rectangle_4" data-name="Rectangle 4" width="150" height="150" rx="11" transform="translate(1156 240)" fill="#6e00ff"/>
+    <rect class="square-anim" id="Rectangle_5" data-name="Rectangle 5" width="150" height="150" rx="11" transform="translate(1306 390)" fill="#6e00ff" opacity="0.426"/>
+    <rect class="square-anim" id="Rectangle_6" data-name="Rectangle 6" width="150" height="150" rx="11" transform="translate(1006 390)" fill="#fff"/>
+    <rect class="square-anim" id="Rectangle_7" data-name="Rectangle 7" width="150" height="150" rx="11" transform="translate(1156 540)" fill="#6e00ff"/>
+    <rect class="square-anim" id="Rectangle_8" data-name="Rectangle 8" width="150" height="150" rx="11" transform="translate(856 540)" fill="#fff" opacity="0.213"/>
+    <rect class="square-anim" id="Rectangle_9" data-name="Rectangle 9" width="150" height="150" rx="11" transform="translate(1006 690)" fill="#fff"/>
+    <circle class="square-anim" id="Ellipse_2" data-name="Ellipse 2" cx="75.5" cy="75.5" r="75.5" transform="translate(1155 390)" fill="#ff64cb"/>
+    <circle class="square-anim" id="Ellipse_3" data-name="Ellipse 3" cx="75.5" cy="75.5" r="75.5" transform="translate(1006 539)" fill="#00f7ff"/>
+  </g>
+</svg>
+
+
+
+
     </div>
   );
 }
