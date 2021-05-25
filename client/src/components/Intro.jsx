@@ -50,7 +50,7 @@ export default function Intro() {
           <div className="inner transition2">
             <p class="subtitle">Featured Project</p>
             <a href="https://covid-country-e9bff.web.app/" class="featured-title" target="_blank">International COVID-19 Tracker</a>
-
+            <p className="featured-desc">Using the disease.sh API, Leaflet, and Material UI I created an interactive tool that tracks the number of cases, recoveries, and deaths by COVID-19 internationally.</p>
           </div>
         </div>
         
