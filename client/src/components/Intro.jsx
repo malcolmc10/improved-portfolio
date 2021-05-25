@@ -1,6 +1,11 @@
 import React from "react";
 import Covid from "../images/Covid.png"
 import Reactsvg from "../images/react.svg"
+import Javascript from "../images/js.svg"
+import Styling from "../images/css.svg"
+import Node from "../images/nodejs.svg"
+import MongoDB from "../images/mongodb.svg"
+import Express from "../images/express.svg"
 
 export default function Intro() {
   return (
@@ -64,11 +69,45 @@ export default function Intro() {
       {/* Below is where I will list my technical skills */}
 
       <section className="skills">
+        {/* <div className="skillsTitle transition2">
+          <span>My Skills</span>
+            </div> */}
+
         <div className="skills-container">
           <ul>
             <li className="transition2">
               <div className="icon-container one">
                 <img src={Reactsvg} alt="react svg" />
+              </div>
+               
+            </li>
+
+            <li className="transition2">
+              <div className="icon-container two">
+                <img src={Javascript} alt="javascript svg" />
+              </div>
+               
+            </li>
+
+            <li className="transition2">
+              <div className="icon-container three">
+                <img src={Styling} alt="css svg" />
+              </div>
+               
+            </li>
+
+            <li className="transition2">
+              <div className="icon-container four">
+                <img src={Node} alt="node svg" />
+              </div>
+               
+            </li>
+
+            <li className="transition2">
+              <div className="icon-container five">
+                <img src={MongoDB} alt="MongoDB svg" />
+                <p>&</p>
+                <img src={Express} alt="express svg" />
               </div>
                
             </li>
