@@ -7,14 +7,13 @@ export default function Intro() {
         <div className="content">
           <h1>Hi! I'm Colin Malcolm a Software Engineer</h1>
 
-          <div className="meet"></div>
+          <div className="meet">
           <span>👇</span>
           <p>Learn more below</p>
-        </div>
+          </div>
 
-        {/* scroll animation below */}
-        
-        <svg class="scroll" width="43" height="73" viewBox="0 0 43 73">
+{/* scroll animation below */}
+          <svg class="scroll" width="43" height="73" viewBox="0 0 43 73">
   <g id="Toggle-1" transform="translate(-248 -716)">
     <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(248 716)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="6">
       <rect width="43" height="73" rx="21.5" stroke="none"/>
@@ -23,10 +22,10 @@ export default function Intro() {
     <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="12.5" cy="13.5" rx="12.5" ry="13.5" transform="translate(257 725)" fill="#fff"/>
   </g>
 </svg>
+        </div>
 
-      </div>
-
-      {/* big animation below */}
+        
+        {/* big animation below */}
 
       <svg  class="hero-design" width="600" height="600" viewBox="0 0 600 600">
   <g id="hero-image" transform="translate(-856 -240)">
@@ -40,6 +39,24 @@ export default function Intro() {
     <circle class="square-anim" id="Ellipse_3" data-name="Ellipse 3" cx="75.5" cy="75.5" r="75.5" transform="translate(1006 539)" fill="#00f7ff"/>
   </g>
 </svg>
+        
+
+      </div>
+
+      {/* Featured Project Below */}
+
+      <section class="featured">
+        <div className="left">
+          <div className="inner transition2">
+            <p class="subtitle">Featured Project</p>
+            <a href="https://covid-country-e9bff.web.app/" class="featured-title" target="_blank">International COVID-19 Tracker</a>
+
+          </div>
+        </div>
+        
+
+      
+      </section>
 
 
 
