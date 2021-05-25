@@ -6,6 +6,10 @@ import Styling from "../images/css.svg"
 import Node from "../images/nodejs.svg"
 import MongoDB from "../images/mongodb.svg"
 import Express from "../images/express.svg"
+import RecipeBox from "../images/receipebox.png"
+import Spotify from "../images/Spotify.png"
+import Climapp from "../images/climapp.png"
+import Schmedium from "../images/Schmedium.png"
 
 export default function Intro() {
   return (
@@ -109,15 +113,67 @@ export default function Intro() {
                 <p>&</p>
                 <img src={Express} alt="express svg" />
               </div>
-               
             </li>
-
-
           </ul>
+          </div>
+      </section>
+
+      <section className="portfolio">
+
+        <div className="portfolio-container transition3">
+          <div className="portfolio-left">
+            <div className="inner">
+              <p className="subtitle">Recipe App</p>
+              <p className="featured-title">RecipeBox</p>
+              <p className="featured-desc">Using full CRUD, the application allows the user to select dishes based on a filtering system that includes toggles and a search bar. Built with the MERN stack and Tailwind CSS.</p>
+            </div>
 
           </div>
+          <a class="right" href="#"><img src={RecipeBox } alt=""/></a>
 
+        </div>
+        
 
+        <div className="portfolio-container transition3">
+          <div className="portfolio-left">
+            <div className="inner">
+              <p className="subtitle">UX/UI Clone</p>
+              <p className="featured-title">Spotify UI Clone</p>
+              <p className="featured-desc">Using React, React Router, Javascript, and Sass I recreated the Sportfiy UI including playlist page, listed playlists, CSS effects, Objects, and API calls. </p>
+            </div>
+
+          </div>
+          <a class="right" href="#"><img src={Spotify } alt=""/></a>
+
+        </div>
+        
+
+        <div className="portfolio-container transition3">
+          <div className="portfolio-left">
+            <div className="inner">
+              <p className="subtitle">Weather App</p>
+              <p className="featured-title">ClimApp</p>
+              <p className="featured-desc">Using OpenWeatherMap API, React, Bootstrap, and JavaScript I created a weather app that shows the weather conditions in over 200,000 cities across the world. </p>
+            </div>
+
+          </div>
+          <a class="right" href="#"><img src={Climapp } alt=""/></a>
+
+        </div>
+        
+
+        <div className="portfolio-container transition3">
+          <div className="portfolio-left">
+            <div className="inner">
+              <p className="subtitle">Review App</p>
+              <p className="featured-title">Schmedium</p>
+              <p className="featured-desc">Using full CRUD, Rest API and authentication, the user can leave a quick review on their favorite Harry Potter film. Built wit MERN stack and Tailwind CSS.</p>
+            </div>
+
+          </div>
+          <a class="right" href="#"><img src={Schmedium } alt=""/></a>
+
+            </div>
 
       </section>
 
