@@ -2,6 +2,7 @@ import React from 'react'
 import Linkedin from '../images/linkedin.svg'
 import Medium from '../images/medium.svg'
 import Github from '../images/github.svg'
+import './Navbar.scss'
 
 export default function Navbar() {
   return (
