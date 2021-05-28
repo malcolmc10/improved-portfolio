@@ -6,3 +6,31 @@
    color: white; 
   }
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+
+  .logo {
+    color: #00F7FF;
+    font-weight: bold;
+  }
+
+  nav {
+    // float: right;
+
+    ul{
+      display: flex;
+
+      a {
+        display: block;
+        padding: 0 1em;
+      }
+    }
+  }
+}
+
+.social-header {
+  display: none;
+}
