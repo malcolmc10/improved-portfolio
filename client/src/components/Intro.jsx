@@ -171,7 +171,7 @@ export default function Intro() {
             </div>
 
           </div>
-          <a class="right" href="#"><img src={Schmedium } alt=""/></a>
+          <a class="right" href="#"><img src={Schmedium} alt=""/></a>
 
             </div>
 
