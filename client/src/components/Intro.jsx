@@ -1,4 +1,5 @@
 import React from "react";
+import "./Intro.scss";
 import Covid from "../images/Covid.png"
 import Reactsvg from "../images/react.svg"
 import Javascript from "../images/js.svg"
@@ -65,7 +66,7 @@ export default function Intro() {
           </div>
         </div>
 
-        <img class="right transition2" src={Covid} alt="Covid-19 Project"/>
+        <img class="right featured-img transition2" src={Covid} alt="Covid-19 Project"/>
         
       </section>
 

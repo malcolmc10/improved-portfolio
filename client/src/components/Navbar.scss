@@ -34,3 +34,44 @@ header {
 .social-header {
   display: none;
 }
+
+@media only screen and (min-width: 1050px) {
+
+  .nav-container{
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+
+    header{
+      background: #6700EE;
+    }
+  }
+
+  header {
+    padding: 2em 2em 2em 4em;
+  }
+
+  .social-header{
+    padding: 2em 4em 2em 0;
+  }
+
+  section {
+    padding: 4em;
+  }
+
+  .social-header {
+    display: block;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        width: 7em;
+        float: right;
+
+        img {
+          width: 20px;
+        }
+      }
+  }
+
+  
+  }

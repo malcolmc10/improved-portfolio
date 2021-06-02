@@ -1,0 +1,226 @@
+.hero {
+  background: #6E00FF;
+  color: white;
+  display: grid;
+  text-align: center;
+  padding: 4em;
+}
+
+// hero-design is the big colorful picture at the top
+.hero-design{
+  display: none;
+}
+
+.meet{
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  font-weight: bold;
+  color: #FF64CB;
+
+  span{
+    margin-top: 1em;
+    margin-right: .5em;
+  }
+}
+// mouse scroll
+.scroll{
+  width: 30px;
+  margin-top: 2em;
+}
+
+
+// featured section
+section{
+  padding: 4em 2em;
+  text-align: center;
+}
+
+// the circle behind the featured text
+.featured{
+  position: relative;
+}
+.featured::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #E5D5FA;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.subtitle{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #6E00FF;
+  letter-spacing: .2em;
+  font-size: .85em;
+}
+
+.featured-title{
+  color: black;
+  font-weight: bold;
+  margin-top: -.4em;
+  display: block;
+}
+
+.featured-desc{
+  color: #3B3B3B;
+  margin-bottom: 3em;
+  font-size: .9em;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+
+.featured-img{
+ border-radius: 1em;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills{
+  background: #FF64CB;
+  
+}
+
+.skills-container ul li{
+  
+  background: white;
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    .icon-container{
+       height: 100px;
+        display: grid;
+        place-content: center;
+        margin: 0 auto;
+
+        &.one {
+          width: 50px;
+        }
+
+        &.two {
+          width: 50px;
+        }
+
+        &.three {
+          width: 50px;
+        }
+
+        &.four {
+          width: 50px;
+        }
+
+        &.five {
+          width: 50px;
+        }
+
+    }
+}
+
+.portfolio{
+  background: #F7F7F7;
+}
+
+.portfolio-container a img{
+  border-radius: 1em;
+  margin-bottom: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (min-width: 800px) {
+  .featured, .portfolio{
+    text-align: left;
+  }
+
+  .featured, .portfolio-container{
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+
+  .left, .portfolio-left{
+    display: grid;
+    place-content: center;
+  }
+
+  .right{
+    margin-left: 2em;
+    margin-top: 1em;
+  }
+
+  .skills{
+    margin-top: -5em;
+    margin-bottom: -7em;
+    padding-top: 7em;
+  }
+
+  .skills-container ul{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 2em;
+    
+  }
+
+  .portfolio{
+    padding-top: 7em;
+  }
+
+  .portfolio-container{
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+
+  section {
+    padding: 4em;
+  }
+
+  .hero {
+
+    height: 90vh;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+    padding: 0;
+
+    .content{
+      background: #6E00FF;
+      padding: 6em 8em 6em 4em;
+      text-align: left;
+
+      h1{
+        font-size: 3em;
+        line-height: 1.2em;
+      }
+    }
+  }
+
+  .meet{
+    margin: unset;
+  }
+
+  .hero-design{
+    display: unset;
+    margin-left: -50%;
+    margin-top: 15%;
+    width: 100%;
+  }
+
+  .portfolio img{
+
+    float: right;
+    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+
+}
