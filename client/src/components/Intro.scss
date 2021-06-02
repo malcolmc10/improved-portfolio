@@ -218,9 +218,27 @@ section{
 
     float: right;
     max-width: 500px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
   }
 
-
-
 }
+
+@media only screen and (min-width: 1250px) {
+  section{
+    padding: 10em 10em 4em 10em;
+  }
+
+  .hero .content{
+    padding: 6em 8em 6em 10em;
+  }
+  }
+
+  @media only screen and  (min-width: 1550px){
+    section{
+      padding: 6em 20em 4em 20em;
+    }
+
+    .hero .content{
+      padding: 9em 20em 6em 20em;
+    }
+  }
