@@ -82,6 +82,23 @@ section{
 
 .skills{
   background: #FF64CB;
+
+  span{
+    
+  align-content: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:100px;
+  font-weight: bold;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						8px 8px #00F7FF,
+						20px 20px #6e00ff;
+  }
   
 }
 
@@ -91,6 +108,7 @@ section{
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 1em;
+  margin-top: 3em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     .icon-container{
@@ -130,6 +148,8 @@ section{
   border-radius: 1em;
   margin-bottom: 2em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
 }
 
 @media only screen and (min-width: 800px) {
@@ -260,3 +280,5 @@ section{
       
     }
   }
+
+ 

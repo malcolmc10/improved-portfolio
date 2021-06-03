@@ -11,8 +11,11 @@ import RecipeBox from "../images/receipebox.png"
 import Spotify from "../images/Spotify.png"
 import Climapp from "../images/climapp.png"
 import Schmedium from "../images/Schmedium.png"
+import Github from '../images/github.svg'
+import View from '../images/view.svg'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 
 
 
@@ -83,9 +86,9 @@ export default function Intro() {
       {/* Below is where I will list my technical skills */}
 
       <section className="skills">
-        {/* <div className="skillsTitle transition2">
+        
           <span>My Skills</span>
-            </div> */}
+            
 
         <div className="skills-container">
           <ul>
@@ -134,12 +137,12 @@ export default function Intro() {
           <div className="portfolio-left">
             <div className="inner">
               <p className="subtitle">Recipe App</p>
-              <p className="featured-title">RecipeBox</p>
+              <a  href="https://github.com/malcolmc10/P3-recipebox/blob/dev/p3-worksheet.md" target="_blank"><p className="featured-title">RecipeBox</p></a>
               <p className="featured-desc">Using full CRUD, the application allows the user to select dishes based on a filtering system that includes toggles and a search bar. Built with the MERN stack and Tailwind CSS.</p>
             </div>
 
           </div>
-          <a class="right" href="#"><img src={RecipeBox } alt=""/></a>
+          <a class="right" href="http://foodiesandgoodiesrecipebox.surge.sh/" target="_blank"><img src={RecipeBox } alt=""/></a>
 
         </div>
         
@@ -148,12 +151,12 @@ export default function Intro() {
           <div className="portfolio-left">
             <div className="inner">
               <p className="subtitle">UX/UI Clone</p>
-              <p className="featured-title">Spotify UI Clone</p>
+              <a  href="https://github.com/malcolmc10/SpotifyMe" target="_blank"><p className="featured-title">Spotify UI Clone</p></a>
               <p className="featured-desc">Using React, React Router, Javascript, and Sass I recreated the Sportfiy UI including playlist page, listed playlists, CSS effects, Objects, and API calls. </p>
             </div>
 
           </div>
-          <a class="right" href="#"><img src={Spotify } alt=""/></a>
+          <a class="right" href="http://spotifyme.surge.sh/" target="_blank"><img src={Spotify } alt=""/></a>
 
         </div>
         
@@ -162,12 +165,12 @@ export default function Intro() {
           <div className="portfolio-left">
             <div className="inner">
               <p className="subtitle">Weather App</p>
-              <p className="featured-title">ClimApp</p>
+              <a  href="https://github.com/malcolmc10/ClimApp" target="_blank"><p className="featured-title">ClimApp</p></a>
               <p className="featured-desc">Using OpenWeatherMap API, React, Bootstrap, and JavaScript I created a weather app that shows the weather conditions in over 200,000 cities across the world. </p>
             </div>
 
           </div>
-          <a class="right" href="#"><img src={Climapp } alt=""/></a>
+          <a class="right" href="http://climappweather.surge.sh/" target="_blank"><img src={Climapp } alt=""/></a>
 
         </div>
         
@@ -176,12 +179,13 @@ export default function Intro() {
           <div className="portfolio-left">
             <div className="inner">
               <p className="subtitle">Review App</p>
-              <p className="featured-title">Schmedium</p>
+              <a  href="https://github.com/malcolmc10/Schmedium" target="_blank"><p className="featured-title">Schmedium</p></a>
               <p className="featured-desc">Using full CRUD, Rest API and authentication, the user can leave a quick review on their favorite Harry Potter film. Built wit MERN stack and Tailwind CSS.</p>
+              
             </div>
 
           </div>
-          <a class="right" href="#"><img src={Schmedium} alt=""/></a>
+          <a class="right" href="http://schmediumpotter.surge.sh/" target="_blank"><img src={Schmedium} alt=""/></a>
 
             </div>
 
