@@ -11,8 +11,17 @@ import RecipeBox from "../images/receipebox.png"
 import Spotify from "../images/Spotify.png"
 import Climapp from "../images/climapp.png"
 import Schmedium from "../images/Schmedium.png"
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+
 
 export default function Intro() {
+
+  gsap.registerPlugin(ScrollTrigger);
+  var tl = gsap.timeline();
+
+
   return (
     <div>
       <div className="hero">
