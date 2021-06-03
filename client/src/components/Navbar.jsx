@@ -14,7 +14,7 @@ export default function Navbar() {
 
           <nav>
             <ul>
-              <li><a href="#">My Work</a></li>
+              <li><a href="#mywork">My Work</a></li>
               <li><a href="https://pdfhost.io/v/g086dRiMN_Colin_Malcolm_Engineering_Resume_Google_Docspdf.pdf" target="_blank">Resume</a></li>
               <li><a href="#">Contact Me</a></li>
             </ul>

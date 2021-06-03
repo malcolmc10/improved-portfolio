@@ -131,7 +131,7 @@ export default function Intro() {
           </div>
       </section>
 
-      <section className="portfolio">
+      <section className="portfolio" id="mywork">
 
         <div className="portfolio-container transition3">
           <div className="portfolio-left">
