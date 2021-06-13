@@ -15,7 +15,7 @@ const ContactUs = () => {
         
         
         
-  <div className="screen  sushi">
+  <div className="screen  sushi ">
           <form className="form">
             <h1>Contact Me 📧</h1>
             <ul>
@@ -23,6 +23,15 @@ const ContactUs = () => {
               <li><span>Phone:</span>919-429-2216</li>
             </ul>
             
+            {/* form stuff */}
+            <label>Name</label>
+            <input placeholder="Name"/>
+            
+            <label>Email</label>
+            <input placeholder="Email"/>
+            
+            <label>Message</label>
+            <textarea placeholder="Message"/>
 
 
     </form>
