@@ -17,10 +17,12 @@
   width: 200px;
   font-weight: bold;
   color: #FF64CB;
+  padding-top: 30px;
 
   span{
-    margin-top: 1em;
+    // margin-top: 1em;
     margin-right: .5em;
+    
   }
 }
 // mouse scroll
@@ -96,8 +98,8 @@ section{
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
   text-shadow: 
-						8px 8px #00F7FF,
-						20px 20px #6e00ff;
+						8px 8px  #6e00ff,
+						20px 20px  #00F7FF;
   }
   
 }
