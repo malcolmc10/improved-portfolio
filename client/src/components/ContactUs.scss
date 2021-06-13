@@ -1,4 +1,57 @@
 
+.app{
+  background: white;
+  padding-top: 10px;
+
+  .left {
+    width: 25%;
+  }
+  
+  
+  
+  
+
+}
+
+.sushi {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  h1{
+    margin-left: 138px;
+  }
+  
+  ul{
+    display: flex;
+        // justify-content: space-between;
+        li{
+          justify-content: space-between;
+          padding: 0 0 20px 15px;
+          color: #7314ff;
+        }
+        
+        
+   
+    
+        
+
+  }
+
+  
+  
+        
+        
+}
+
+
+
+
+span{
+  font-weight: bold;
+  color: #7314ff;
+  padding-right: 10px;
+}
 
 
 
