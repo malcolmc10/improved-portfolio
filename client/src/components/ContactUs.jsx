@@ -1,8 +1,40 @@
-import React from 'react'
+import React, { useState } from "react";
 import "./ContactUs.scss";
+import { db } from "./firebase"
+import Boxy from '../images/contact-image.svg';
 
 
 const ContactUs = () => {
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const [loader, setLoader] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setLoader(true)
+
+    db.collection('contacts').add({
+      name: name,
+      email: email,
+      message:message,
+    })
+      .then(() => {
+        alert('I look forward to hearing from you 👍 ')
+        setLoader(false);
+      })
+      .catch(error => {
+        alert(error.message);
+        setLoader(false);
+      })
+    
+    setName("");
+    setEmail("");
+    setMessage("");
+  }
+
   return (
     <div>
 
@@ -16,8 +48,8 @@ const ContactUs = () => {
         
         
   <div className="screen  sushi ">
-          <form className="form">
-            <h1>Contact Me 📧</h1>
+          <form className="form" onSubmit={handleSubmit}>
+            <h1>Contact Me</h1>
             <ul>
               <li><span>Email:</span>colinmalcolm8@gmail.com</li>
               <li><span>Phone:</span>919-429-2216</li>
@@ -25,21 +57,24 @@ const ContactUs = () => {
             
             {/* form stuff */}
             <label>Name</label>
-            <input placeholder="Name"/>
+            <input placeholder="Name" value={name}
+              onChange={(e) => setName(e.target.value)}/>
             
             <label>Email</label>
-            <input placeholder="Email"/>
+            <input placeholder="Email" value={email}
+              onChange={(e) => setEmail(e.target.value)}/>
             
             <label>Message</label>
-            <textarea placeholder="Message"/>
+            <textarea placeholder="Message" value={message}
+              onChange={(e) => setMessage(e.target.value)}/>
+            
+            <button type="submit" style={{backgroud : loader ? "#ccc" : "#7314ff"}}>
+              
+              
+              Submit</button>
 
 
-    </form>
-    
-
-     
-     
-     
+    </form>     
 </div>
 
   
