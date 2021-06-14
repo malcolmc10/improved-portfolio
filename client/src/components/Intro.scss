@@ -77,6 +77,18 @@ section{
   font-weight: 500;
 }
 
+.link1{
+  width: 30px;
+  // padding-left: 150px;
+  margin-top: -30px;
+  margin-bottom: 3em;
+}
+
+.fire {
+  width: 30px;
+  justify-content: center; 
+}
+
 .featured-img{
  border-radius: 1em;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -152,6 +164,8 @@ section{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   
+
+  
 }
 
 @media only screen and (min-width: 800px) {
@@ -186,6 +200,8 @@ section{
     grid-gap: 2em;
     
   }
+
+  
 
   .portfolio{
     padding-top: 7em;

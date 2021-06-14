@@ -61,11 +61,13 @@ header {
 
   .social-header {
     display: block;
+    
       ul {
         display: flex;
         justify-content: space-between;
         width: 7em;
         float: right;
+        
 
         img {
           width: 20px;

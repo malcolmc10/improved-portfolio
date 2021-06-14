@@ -1,10 +1,16 @@
 
 .app{
-  background: white;
+  // background-color: white;
   padding-top: 10px;
   width: 400px;
   margin: 0 auto;
-  height: 100vh;
+  height: 100%;
+  padding-bottom: 40px;
+  }
+
+   .contact-image{
+    display: none;
+    
   }
 
 .sushi {
@@ -18,18 +24,20 @@
     display: flex;
    flex-direction: column;
    justify-content: center;
-   font-family: 'Poppins;'
+  
+   
+   
 
-  h1{
-    margin-left: 103px;
-  }
+  // h1{
+  //   margin-left: 103px;
+  // }
   
   ul{
     display: flex;
     flex-direction: column;
-        // justify-content: space-between;
+        
         li{
-          // justify-content: space-between;
+          
           padding: 0 0 20px 0;
           color: #7314ff;
         }
@@ -101,6 +109,19 @@ textarea::placeholder {
   background-color: #6700ee;
 }
 
+.card-form{
+ background: #7314ff;
+}
+
+.form{
+  background: white;
+  padding: 0em 2em 2em 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  margin-top: 3em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 
 
@@ -109,5 +130,58 @@ textarea::placeholder {
     width: 100%;
   }
 }
+
+
+
+
+@media only screen and (min-width: 1050px) {
+
+  .app{
+    display: grid;
+    grid-template-columns: 90% auto;
+    justify-content: center;
+    
+  }
+
+  .form{
+    // display: grid;
+    
+   
+  }
+
+  .contact-image {
+    // display: grid;
+    // padding-right: 50px;
+
+    margin-left: 0;
+
+    display: flex;
+        justify-content:space-around;
+        width: 30em;
+        float: left;
+        margin: 0;
+        padding-right: 3em 5em 3em 5em;
+
+    
+    
+
+  }
+
+
+
+  
+  }
+
+  @media only screen and (min-width: 1250px) {
+    
+  }
+
+  @media only screen and (min-width: 1250px) {
+    
+    }
+  
+  @media only screen and  (min-width: 1550px){
+      
+    }
 
 

@@ -75,6 +75,7 @@ export default function Intro() {
             <p class="subtitle">Featured Project</p>
             <a href="https://covid-country-e9bff.web.app/" class="featured-title" target="_blank">International COVID-19 Tracker</a>
             <p className="featured-desc">Using the disease.sh API, Leaflet, and Material UI I created an interactive tool that tracks the number of cases, recoveries, and deaths by COVID-19 internationally.</p>
+            <a href="https://github.com/malcolmc10/Pandemic" target="_blank"><img className="link1" src={Github}/></a>
           </div>
         </div>
 
@@ -137,12 +138,13 @@ export default function Intro() {
           <div className="portfolio-left">
             <div className="inner">
               <p className="subtitle">Recipe App</p>
-              <a  href="https://github.com/malcolmc10/P3-recipebox/blob/dev/p3-worksheet.md" target="_blank"><p className="featured-title">RecipeBox</p></a>
+              <p className="featured-title">RecipeBox</p>
               <p className="featured-desc">Using full CRUD, the application allows the user to select dishes based on a filtering system that includes toggles and a search bar. Built with the MERN stack and Tailwind CSS.</p>
+              <a href="https://github.com/malcolmc10/Pandemic" target="_blank"><img className="fire" src={Github}/></a>
             </div>
 
           </div>
-          <a class="right" href="http://foodiesandgoodiesrecipebox.surge.sh/" target="_blank"><img src={RecipeBox } alt=""/></a>
+          <a class="right imagine" href="http://foodiesandgoodiesrecipebox.surge.sh/" target="_blank"><img src={RecipeBox } alt=""/></a>
 
         </div>
         
@@ -151,8 +153,9 @@ export default function Intro() {
           <div className="portfolio-left">
             <div className="inner">
               <p className="subtitle">UX/UI Clone</p>
-              <a  href="https://github.com/malcolmc10/SpotifyMe" target="_blank"><p className="featured-title">Spotify UI Clone</p></a>
+              <p className="featured-title">Spotify UI Clone</p>
               <p className="featured-desc">Using React, React Router, Javascript, and Sass I recreated the Sportfiy UI including playlist page, listed playlists, CSS effects, Objects, and API calls. </p>
+              <a href="https://github.com/malcolmc10/SpotifyMe" target="_blank"><img className="fire" src={Github}/></a>
             </div>
 
           </div>
@@ -165,8 +168,9 @@ export default function Intro() {
           <div className="portfolio-left">
             <div className="inner">
               <p className="subtitle">Weather App</p>
-              <a  href="https://github.com/malcolmc10/ClimApp" target="_blank"><p className="featured-title">ClimApp</p></a>
+              <p className="featured-title">ClimApp</p>
               <p className="featured-desc">Using OpenWeatherMap API, React, Bootstrap, and JavaScript I created a weather app that shows the weather conditions in over 200,000 cities across the world. </p>
+              <a href="https://github.com/malcolmc10/ClimApp" target="_blank"><img className="fire" src={Github}/></a>
             </div>
 
           </div>
@@ -179,9 +183,9 @@ export default function Intro() {
           <div className="portfolio-left">
             <div className="inner">
               <p className="subtitle">Review App</p>
-              <a  href="https://github.com/malcolmc10/Schmedium" target="_blank"><p className="featured-title">Schmedium</p></a>
+              <p className="featured-title">Schmedium</p>
               <p className="featured-desc">Using full CRUD, Rest API and authentication, the user can leave a quick review on their favorite Harry Potter film. Built wit MERN stack and Tailwind CSS.</p>
-              
+              <a href="https://github.com/malcolmc10/Schmedium" target="_blank"><img className="fire" src={Github}/></a>
             </div>
 
           </div>

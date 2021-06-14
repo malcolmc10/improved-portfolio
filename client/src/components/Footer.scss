@@ -1,62 +1,29 @@
-.footer {
-  display: block;
+.social-footer {
+  display: flex;
   background: #6700ee;
-  
-    ul {
-      display: flex;
-      justify-content: space-between;
-      width: 7em;
-      float: right;
-      
-      
+  grid-template-columns:  repeat(3 auto);
+  height: 100%;
+      ul{
+        display: flex;
+        justify-content: space-between;
+        width: 7em;
+        padding-left: 20px;
 
-      img {
-        width: 20px;
-        height: 20px;
-        
+        img{
+          width: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          
+
+        }
+
         
       }
-    }
-}
-
-@media only screen and (min-width: 1250px) {
-  
-  .social-footer{
-    padding: 2em 10em 2em 0;
-  }
-  section{
-    padding: 10em 10em 4em 10em;
-  }
-}
-
-
-
-@media only screen and  (min-width: 1550px){
-    section{
-      padding: 6em 20em 4em 20em;
-    }
-
-    .social-footer{
-      padding: 2em 20em 2em 20em;
-    }
-  }
-
-  @media only screen and (min-width: 800px) {
-    
-  
-    .left, .portfolio-left{
-      display: grid;
-      place-content: center;
-    }
-  
-    .right{
-      margin-left: 2em;
-      margin-top: 1em;
-    }
-  }
   
     
-  
+     
+    }
+
     
-  
-   
+
+
